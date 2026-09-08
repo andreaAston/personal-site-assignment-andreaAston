@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrea Aston — Electronics &amp; Computer Engineer</title>
+  <meta
+    name="description"
+    content="Andrea Aston — Electronics and Computer Engineering student specialising in embedded systems, microcontroller telemetry, and full-stack web integration."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a class="logo" href="index.html" aria-label="Andrea Aston — home">AA</a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul class="main-nav__list">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="article.html">Articles</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__controls">
+        <button
+          type="button"
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-pressed="false"
+          aria-label="Switch to dark theme"
+        >
+          <span class="theme-toggle__track" aria-hidden="true">
+            <span class="theme-toggle__thumb"></span>
+          </span>
+        </button>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="hero__intro">Hi, I'm Andrea Aston</p>
+          <p class="hero__eyebrow">Electronics &amp; Computer Engineer</p>
+          <h1 class="hero__title" id="hero-heading">Engineering the Future</h1>
+          <p class="hero__desc">
+            Specializing in embedded systems, microcontroller telemetry, and
+            full-stack web integration in readiness of the tech ahead.
+          </p>
+          <a class="btn btn--primary" href="projects.html">View All Projects</a>
+        </div>
+
+        <div class="hero__portrait">
+          <img
+            src="assets/images/Homeprofile.jpeg"
+            alt="Portrait of Andrea Aston"
+            width="320"
+            height="320"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" aria-labelledby="projects-heading">
+      <h2 class="projects__heading" id="projects-heading">Projects</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <h3 class="project-card__title">2025 FGC Robot</h3>
+          <p class="project-card__desc">
+            Team Malawi's competition-grade robot featuring a high-torque
+            chain-and-gear arm system, advanced sensor integration, and
+            strategic design for the First Global Challenge international
+            robotics competition.
+          </p>
+          <a class="btn btn--card" href="projects.html">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-card__title">Smart Clock</h3>
+          <p class="project-card__desc">
+            An Arduino-based multifunctional timekeeping system that combines
+            a real-time clock, temperature/humidity monitoring, and a
+            programmable alarm with IR remote control.
+          </p>
+          <a class="btn btn--card" href="projects.html">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-card__title">Smart Security System</h3>
+          <p class="project-card__desc">
+            An RFID-based access control prototype featuring two-factor
+            authentication, servo-actuated door mechanism, and multi-modal
+            feedback system for secure entry management.
+          </p>
+          <a class="btn btn--card" href="projects.html">View Project</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Andrea Aston 2026</p>
+  </footer>
+
+  <script src="assets/js/theme.js" defer></script>
+</body>
+</html>
