@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project — Andrea Aston</title>
+  <meta name="description" content="Project details by Andrea Aston." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="project-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a class="logo" href="index.html" aria-label="Andrea Aston - home">AA</a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul class="main-nav__list">
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="404.html">Articles</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__controls">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false" aria-label="Switch to dark theme">
+          <span class="theme-toggle__track" aria-hidden="true"><span class="theme-toggle__thumb"></span></span>
+        </button>
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="project-details">
+    <div id="project-loading" class="project-state">Loading project...</div>
+    <div id="project-error" class="project-state project-state--error" hidden></div>
+
+    <article id="project-content" class="project-paper" hidden>
+      <a href="index.html#projects" class="project-back-link">&larr; Back to Projects</a>
+      <header class="project-details__header">
+        <p id="project-date" class="project-date"></p>
+        <h1 id="project-title"></h1>
+        <div id="project-short-description" class="project-short-description"></div>
+      </header>
+
+      <div class="project-cover-wrapper">
+        <img id="project-cover" class="project-cover" alt="" hidden />
+      </div>
+
+      <section id="project-description" class="project-description" aria-label="Project description"></section>
+
+      <section id="project-gallery-section" class="project-gallery-section" aria-label="Project gallery" hidden>
+        <h2>Project Gallery</h2>
+        <div id="project-gallery" class="project-gallery"></div>
+      </section>
+    </article>
+
+    <section id="other-projects-section" class="other-projects-section" aria-labelledby="other-projects-heading" hidden>
+      <h2 id="other-projects-heading">Other Projects</h2>
+      <div id="other-projects" class="other-projects"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <p class="site-footer__name">&copy; Andrea Aston</p>
+      </div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="index.html#hero-heading">Home</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="about.html">About</a>
+        <a href="404.html">Articles</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/theme.js" defer></script>
+  <script type="module" src="assets/js/project-details.js"></script>
+</body>
+</html>
