@@ -1,4 +1,5 @@
 import { fetchGitHubRepositories } from "./github-api.js";
+import repositoryFallbackImage from "../images/Background.jpg";
 
 const repositoryGrid = document.querySelector("#github-repositories-grid");
 
@@ -8,7 +9,7 @@ function renderRepository(repository) {
 
   const image = document.createElement("img");
   image.className = "project-card__image";
-  image.src = "assets/images/Background.jpg";
+  image.src = repositoryFallbackImage;
   image.alt = "";
   image.loading = "lazy";
 
