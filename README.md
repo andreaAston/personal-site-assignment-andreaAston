@@ -109,9 +109,9 @@ The CV is stored in `public/Andrea_Aston_CV_v2.pdf` and is copied into the produ
 ├── public/
 │   └── Andrea_Aston_CV_v2.pdf
 └── assets/
-	├── css/
-	├── images/
-	└── js/
+    ├── css/
+    ├── images/
+    └── js/
 ```
 
 ## Author
