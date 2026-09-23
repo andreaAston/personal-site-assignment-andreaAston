@@ -16,9 +16,10 @@
     rel="stylesheet"
   />
 
-  <script type="module" crossorigin src="/assets/main-B-A1VxgA.js"></script>
-  <script type="module" crossorigin src="/assets/supabase-client-CxJCJk55.js"></script>
-  <script type="module" crossorigin src="/assets/projects-CzciTeL7.js"></script>
+  <script type="module" crossorigin src="/assets/index-CCcEQ-5w.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/main-B-A1VxgA.js">
+  <link rel="modulepreload" crossorigin href="/assets/supabase-client-CxJCJk55.js">
+  <link rel="modulepreload" crossorigin href="/assets/projects-CzciTeL7.js">
   <link rel="stylesheet" crossorigin href="/assets/main-CNUYLvNd.css">
 </head>
 <body>
@@ -100,6 +101,14 @@
         <p class="projects__status">Loading projects...</p>
       </div>
     </section>
+
+    <section class="projects" id="repositories" aria-labelledby="repositories-heading">
+      <h2 class="projects__heading" id="repositories-heading">My Repositories</h2>
+
+      <div class="project-grid" id="github-repositories-grid" aria-live="polite">
+        <p class="projects__status">Loading repositories...</p>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -130,6 +139,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/theme.js" defer></script>
+  <script src="assets/js/theme.js" defer></script>
 </body>
 </html>

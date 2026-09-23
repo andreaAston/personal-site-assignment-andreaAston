@@ -4,6 +4,18 @@ A responsive personal portfolio website for Andrea Aston, an Electronics and Com
 
 The site presents an introduction, background information, technical skills, projects, articles, and a contact form. Visitors can also download Andrea's CV from the About page.
 
+# Professional Portfolio Site
+
+## 🔗 Project Deliverables
+- 🚀 **Live Website:** [View Live Site](https://personal-site-assignment-andrea-ast.vercel.app)
+- 💻 **GitHub Repository:** [View Source Code](https://github.com/andreaAston/personal-site-assignment-andreaAston)
+- 🎨 **Figma Design File:** [View Design System & Wireframes](https://www.figma.com/design/bECDbyPpPVXTblxWf9fNWt/Andrea-Aston---Portfolio-Design-System?node-id=0-1&t=lEjWYHB1ihHocvjF-1)
+
+
+## 🛠 Tech Stack & Specifications
+- **Design System:** Figma (12-column grid, Major Third scale, WCAG AA compliance)
+- **Frontend:** Semantic HTML5, CSS Grid/Flexbox, Custom CSS Properties, Vanilla JavaScript
+- **Deployment:** Vercel
 ## Features
 
 - Responsive layout for desktop, tablet, and mobile screens
