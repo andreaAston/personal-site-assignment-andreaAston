@@ -814,7 +814,7 @@ button {
    ========================================================================== */
 @media (max-width: 768px) {
   .about-hero__inner {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
   }
 
