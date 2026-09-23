@@ -1,3 +1,4 @@
+import "./theme.js";
 import { fetchSkillsGrouped } from "./supabase-client.js";
 
 const skillsGrid = document.querySelector("#skills-grid");

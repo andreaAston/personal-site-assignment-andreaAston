@@ -1,3 +1,4 @@
+import "./theme.js";
 import emailjs from "@emailjs/browser";
 
 const form = document.querySelector("#contact-form");

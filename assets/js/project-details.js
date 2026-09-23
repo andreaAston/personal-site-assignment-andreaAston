@@ -1,3 +1,4 @@
+import "./theme.js";
 import DOMPurify from "dompurify";
 import {
   fetchProjectBySlug,

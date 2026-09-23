@@ -1,3 +1,4 @@
+import "./theme.js";
 import { fetchProjects } from "./supabase-client.js";
 
 const projectGrid = document.querySelector("#project-grid");
