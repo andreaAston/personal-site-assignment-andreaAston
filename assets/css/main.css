@@ -636,7 +636,7 @@ button {
   justify-content: center;
   text-align: center;
   padding-top: var(--header-height);
-  background: url("../images/background-2.jpg") center / cover no-repeat fixed;
+  background: url("../images/Background-2.jpg") center / cover no-repeat fixed;
   color: var(--color-text-inverse);
 }
 
